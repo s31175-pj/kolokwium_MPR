@@ -12,4 +12,8 @@ public class ClientService {
     public Client addClient(String name) {
         return clientStorage.addClient(name);
     }
+
+    public Client getById(int id) {
+        return clientStorage.getById(id);
+    }
 }

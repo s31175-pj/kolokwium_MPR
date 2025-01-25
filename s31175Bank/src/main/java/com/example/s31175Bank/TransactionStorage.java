@@ -49,6 +49,7 @@ public class TransactionStorage {
     }
 
     private boolean canAdd(Account account, float amount) {
+        if(account == null) return false;
         if (account.getBalance()>=amount) {
             return true;
         };
