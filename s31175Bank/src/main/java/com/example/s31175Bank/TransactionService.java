@@ -11,16 +11,16 @@ public class TransactionService {
         this.transactionStorage = transactionStorage;
         this.accountService = accountService;
 
-        System.out.println("test");
-
-        accountService.registerClient("Piotr",456.12f);
-        deposit(0, 15.12f);
-        System.out.println(accountService.getByClientId(0).getBalance());
-
-        send(0, 22.22f);
-        System.out.println(accountService.getByClientId(0).getBalance());
-
-        System.out.println(accountService.getById(0).getClient().getName());
+//        System.out.println("test");
+//
+//        accountService.registerClient("Piotr",456.12f);
+//        deposit(0, 15.12f);
+//        System.out.println(accountService.getByClientId(0).getBalance());
+//
+//        send(0, 22.22f);
+//        System.out.println(accountService.getByClientId(0).getBalance());
+//
+//        System.out.println(accountService.getById(0).getClient().getName());
     }
 
 
